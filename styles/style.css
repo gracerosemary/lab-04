@@ -1,0 +1,67 @@
+/* @import "reset.css";
+@import "base.css";
+@import "layout.css";
+@import "modules.css";
+@import "state.css";
+@import "theme.css"; */
+
+@media only screen and (max-width: 768px) {
+}
+
+h1{
+    font-size: 10 px;
+}
+
+div{
+    text-align: center;
+    line-height: 200px;
+    background-color: lightgray;
+    border: 1px solid darkgray;
+    margin: 0;
+    display: table;
+    max-width: 480px;
+}
+.long{
+    max-width: 480px;
+    float: left;
+}
+.square{
+    max-width: 240px;
+    float: left;
+}
+#a {
+    width: 480px;
+    height: 75px;
+}
+#b {
+    width: 480px;
+    height: 150px;
+}
+#c {
+    width: 480px;
+    height: 125px;
+}
+#d {
+    width: 480px;
+    height: 125px;
+}
+#e {
+    width: 240px;
+    height: 250px;
+}
+#f {
+    width: 240px;
+    height: 250px;
+}
+#g {
+    width: 240px;
+    height: 250px;
+}
+#h {
+    width: 240px;
+    height: 250px;
+}
+#i {
+    width: 480px;
+    height: 80px;
+}

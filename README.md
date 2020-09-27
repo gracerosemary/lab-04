@@ -10,9 +10,9 @@ Your document must be designed in a mobile-first approach and must be responsive
 This is an independent project, but your are free to collaborate with your classmates.
 
 ## Resources
-* [SMACSS Official Documentation]
-* [Desktop wireframe]
-* [Mobile wireframe]
+* [SMACSS Official Documentation](http://smacss.com/)
+* [Desktop wireframe](https://codefellows.github.io/code-301-guide/curriculum/class-01/lab/comps/desktop-view.png)
+* [Mobile wireframe](https://codefellows.github.io/code-301-guide/curriculum/class-01/lab/comps/mobile-view.png)
 
 ## Feature Tasks
 * Create a new repository named lab-01.
