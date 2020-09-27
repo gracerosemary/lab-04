@@ -1,0 +1,14 @@
+div {
+    text-align: center;
+    line-height: 200px;
+    background-color: lightgray;
+    margin: 0;
+    display: table;
+    max-width: 480px;
+    border: 1px solid darkgray;
+}
+
+#container{
+    margin:auto;
+    background-color: white;
+}
