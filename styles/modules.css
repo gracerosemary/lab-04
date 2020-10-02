@@ -1,11 +1,3 @@
-.long{
-    max-width: 480px;
-    float: left;
-}
-.square{
-    max-width: 240px;
-    float: left;
-}
 #a {
     width: 480px;
     height: 75px;
@@ -42,3 +34,4 @@
     width: 480px;
     height: 80px;
 }
+

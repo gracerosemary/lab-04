@@ -1,14 +1,26 @@
 div {
-    text-align: center;
-    line-height: 200px;
     background-color: lightgray;
-    margin: 0;
     display: table;
+    float: left;
     max-width: 480px;
-    border: 1px solid darkgray;
 }
 
-#container{
-    margin:auto;
-    background-color: white;
+.long {
+    width: 100%;
+    line-height: 75px;
 }
+
+.fattest {
+    width: 100%;
+    line-height: 150px;
+}
+
+.fatter {
+    width: 100%;
+    line-height: 120px;
+}
+
+.square {
+    width: 50%;
+    line-height: 250px;
+} 
