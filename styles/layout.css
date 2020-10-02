@@ -1,14 +1,48 @@
-div {
-    text-align: center;
-    line-height: 200px;
-    background-color: lightgray;
-    margin: 0;
-    display: table;
-    max-width: 480px;
-    border: 1px solid darkgray;
+#a {
+    height: 75px;
+    line-height: 75px;
 }
 
-#container{
-    margin:auto;
-    background-color: white;
+.fattest {
+    height: 150px;
+    line-height: 150px;
+}
+
+/* only select div elements inside of .fat */
+
+.fat > div {
+    height: 120px;
+    line-height: 120px;
+}
+
+/* only select div elements inside of .square */
+
+.square > div {
+    width: 50%;
+    float: left;
+    height: 250px;
+    line-height: 250px;    
+}
+
+/* only select footer inside of #i - fixes stacking issue*/
+
+#i > footer {
+    height: 75px;
+    line-height: 75px;
+}
+
+/*desktop view*/
+
+@media only screen and (min-width: 768px) {
+    div {
+        float: left;
+    }
+    
+    .square {
+        float: right;
+    } 
+    
+    #i {
+        float: right;
+    } 
 }

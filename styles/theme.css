@@ -1,0 +1,59 @@
+#a {
+    background-color: rgba(0, 128, 0, 0.712);
+}
+#b {
+    background-color: rgba(120, 200, 0, 0.712);
+}
+#c {
+    background-color: rgba(154, 184, 154, 0.712); 
+}
+#d {
+    background-color: rgba(105, 221, 105, 0.712);
+}
+#e {
+    background-color: rgba(78, 95, 78, 0.712);
+}
+#f {
+    background-color: rgba(23, 73, 23, 0.712);
+}
+#g {
+    background-color: rgba(132, 219, 132, 0.712);
+}
+#h {
+    background-color: rgba(86, 93, 86, 0.712);
+}
+#i {
+    background-color: rgba(99, 233, 99, 0.712);
+}
+
+/* desktop view themes*/
+
+@media only screen and (min-width: 768px) {
+    #a {
+        background-color: rgba(55, 0, 128, 0.712);
+    }
+    #b {
+        background-color: rgba(119, 82, 168, 0.712);
+    }
+    #c {
+        background-color: rgba(188, 168, 216, 0.712); 
+    }
+    #d {
+        background-color: rgba(71, 65, 78, 0.712);
+    }
+    #e {
+        background-color: rgba(123, 62, 202, 0.712);
+    }
+    #f {
+        background-color: rgba(70, 60, 83, 0.712);
+    }
+    #g {
+        background-color: rgba(145, 80, 231, 0.712);
+    }
+    #h {
+        background-color: rgba(24, 9, 44, 0.712);
+    }
+    #i {
+        background-color: rgba(99, 20, 202, 0.712);
+    }
+}
