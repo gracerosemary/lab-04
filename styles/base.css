@@ -1,10 +1,17 @@
 body {
-    margin: 0px auto;
-    padding: 0;
-    padding-top: 20px;
-    width: 480px;
-    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    display: block;
     text-align: center;
+}
+
+body > *  {
+    padding-top: 50%;
+    padding-bottom: 50%;
+    margin: auto;
+    display: block;
+    overflow: auto;
+    width: 960px;
 }
 
 header, div#b, div#c, div#d, section#e, section#f, section#g, section#h, footer.i {
@@ -14,12 +21,18 @@ header, div#b, div#c, div#d, section#e, section#f, section#g, section#h, footer.
 /* desktop */
 
 @media only screen and (min-width: 768px) {
-    body{
-        max-width: 960px;
+    body {
+        position: relative;
+        width: 100%;
+        display: block;
     }
-
-    main {
+    
+    body > *  {
+        padding-top: 50%;
+        padding-bottom: 50%;
+        margin: auto;
+        display: block;
+        overflow: auto;
         width: 960px;
-        margin: 0px auto;
     }
 }
