@@ -1,13 +1,18 @@
 /*desktop view*/
 
 @media only screen and (min-width: 768px) {
+    body {
+        display: grid;
+    }
+    
     main {
-        width: 960px;
+        max-width: 960px;
+        /* display: table; */
     }
     
     #a {
-        float: right;
-        width: 100%;
+        /* float: right; */
+        width: 960px;
         height: 100px;
         line-height: 100px;
     }

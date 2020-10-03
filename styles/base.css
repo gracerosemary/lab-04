@@ -15,7 +15,7 @@ header, div#b, div#c, div#d, section#e, section#f, section#g, section#h, footer.
 
 @media only screen and (min-width: 768px) {
     body{
-        width: 100%;
+        max-width: 960px;
     }
 
     main {
