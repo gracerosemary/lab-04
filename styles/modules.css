@@ -2,12 +2,11 @@
 
 @media only screen and (min-width: 768px) {
     main {
-        width: 960px;
+        max-width: 960px;
     }
     
     #a {
-        float: right;
-        width: 100%;
+        width: 960px;
         height: 100px;
         line-height: 100px;
     }
@@ -55,7 +54,7 @@
         line-height: 250px;  
     }
     
-    footer {
+    #i {
         width: 760px;
         height: 150px;
         line-height: 150px;

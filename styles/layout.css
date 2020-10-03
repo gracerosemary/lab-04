@@ -28,6 +28,12 @@
 
 #i > footer {
     height: 75px;
+    /* line-height: 75px; */
+}
+
+/* fixes height issue from calling footer inside of #i*/
+
+#i {
     line-height: 75px;
 }
 
