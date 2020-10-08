@@ -66,4 +66,9 @@
     #i {
         float: left;
     } 
+
+    .fattest {
+        height: 200px;
+        line-height: 200px;
+    }
 }
