@@ -6,12 +6,10 @@ body {
 }
 
 body > *  {
-    padding-top: 50%;
-    padding-bottom: 50%;
     margin: auto;
     display: block;
     overflow: auto;
-    width: 960px;
+    width: 480px;
 }
 
 header, div#b, div#c, div#d, section#e, section#f, section#g, section#h, footer.i {
@@ -20,7 +18,7 @@ header, div#b, div#c, div#d, section#e, section#f, section#g, section#h, footer.
 
 /* desktop */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 960px) {
     body {
         position: relative;
         width: 100%;
@@ -28,11 +26,26 @@ header, div#b, div#c, div#d, section#e, section#f, section#g, section#h, footer.
     }
     
     body > *  {
-        padding-top: 50%;
-        padding-bottom: 50%;
         margin: auto;
         display: block;
         overflow: auto;
         width: 960px;
+    }
+}
+
+
+/* tablet */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    body {
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+    
+    body > *  {
+        margin: auto;
+        display: block;
+        overflow: auto;
+        width: 700px;
     }
 }
