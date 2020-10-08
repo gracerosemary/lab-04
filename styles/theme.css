@@ -57,3 +57,34 @@
         background-color: rgba(99, 20, 202, 0.712);
     }
 }
+
+/* tablet */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    #a {
+        background-color: rgba(128, 0, 107, 0.712);
+    }
+    #b {
+        background-color: rgba(224, 41, 194, 0.712);
+    }
+    #c {
+        background-color: rgba(202, 135, 191, 0.712); 
+    }
+    #d {
+        background-color: rgba(114, 95, 111, 0.712);
+    }
+    #e {
+        background-color: rgba(245, 141, 228, 0.712);
+    }
+    #f {
+        background-color: rgba(233, 204, 228, 0.712);
+    }
+    #g {
+        background-color: rgba(70, 14, 60, 0.712);
+    }
+    #h {
+        background-color: rgba(233, 130, 216, 0.712);
+    }
+    #i {
+        background-color: rgba(119, 88, 114, 0.712);
+    }
+}

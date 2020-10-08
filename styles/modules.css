@@ -1,6 +1,6 @@
 /*desktop view*/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 960px) {
     main {
         max-width: 960px;
     }
@@ -58,5 +58,62 @@
         width: 760px;
         height: 150px;
         line-height: 150px;
+    }
+}
+
+/* tablet */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    #a {
+        width: 700px;
+        height: 100px;
+        line-height: 100px;
+    }
+    
+    #b {
+        width: 700px;
+        height: 100px;
+        line-height: 100px;
+    }
+
+    #c {
+        width: 350px;
+        height: 200px;
+        line-height: 200px;
+    }
+
+    #d {
+        width: 350px;
+        height: 200px;
+        line-height: 200px;
+    }
+    
+    #e {
+        width: 175px;
+        height: 250px;
+        line-height: 250px;  
+    }
+
+    #f {
+        width: 175px;
+        height: 250px;
+        line-height: 250px;  
+    }
+
+    #g {
+        width: 175px;
+        height: 250px;
+        line-height: 250px;  
+    }
+
+    #h {
+        width: 175px;
+        height: 250px;
+        line-height: 250px;  
+    }
+    
+    #i {
+        width: 700px;
+        height: 100px;
+        line-height: 100px;
     }
 }
