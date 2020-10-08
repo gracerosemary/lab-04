@@ -15,13 +15,11 @@
     line-height: 120px;
 }
 
-/* only select div elements inside of .square */
-
-.square > div {
-    width: 50%;
-    float: left;
-    height: 250px;
-    line-height: 250px;    
+.square {
+    display: grid;
+    grid-template-columns: 240px 240px;
+    grid-template-rows: 250px 250px;
+    line-height: 250px; 
 }
 
 /* only select footer inside of #i - fixes stacking issue*/
@@ -36,7 +34,7 @@
     line-height: 75px;
 }
 
-/*desktop view*/
+/* desktop view */
 
 @media only screen and (min-width: 768px) and (max-width: 960px) {
     div {
@@ -54,7 +52,7 @@
 
 /* table view */
 
-@media only screen and (min-width: 600px) and (max-width: 767px) {
+/* @media only screen and (min-width: 600px) and (max-width: 767px) {
     div {
         float: left;
     }
@@ -71,4 +69,4 @@
         height: 200px;
         line-height: 200px;
     }
-}
+} */
