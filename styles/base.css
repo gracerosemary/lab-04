@@ -11,7 +11,7 @@ body > *  {
     margin: auto;
     display: block;
     overflow: auto;
-    width: 960px;
+    width: 480px;
 }
 
 header, div#b, div#c, div#d, section#e, section#f, section#g, section#h, footer.i {
