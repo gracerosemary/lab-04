@@ -15,6 +15,8 @@
     line-height: 120px;
 }
 
+/* grid styling added for lab 4 */
+
 .square {
     display: grid;
     grid-template-columns: 240px 240px;
@@ -37,17 +39,47 @@
 /* desktop view */
 
 @media only screen and (min-width: 768px) and (max-width: 960px) {
-    div {
-        float: left;
+    
+    #a {
+        grid-area: a;
     }
     
+    #b {
+        grid-area: b;
+    }
+
     .square {
-        float: right;
-    } 
+        grid-area: e;
+    }
     
     #i {
-        float: right;
-    } 
+        grid-area: i;
+    }
+    
+    .container {
+        display: grid;
+        grid-template-columns: 200px 190px 190px 190px 190px;
+        grid-template-rows: 100px 200px 250px 150px;
+        grid-template-areas: 
+        "a a a a a"
+        "b c c d d"
+        "b e f g h"
+        "b i i i i";
+    }
+
+    .fat {
+        display: inline-grid;
+        grid-template-columns: 380px 380px;
+        grid-template-rows: 200px;
+        width: 760px;
+    }
+
+    .square {
+        grid-template-columns: 190px 190px 190px 190px;
+        grid-template-rows: 250px;
+    }
+    
+
 }
 
 /* table view */

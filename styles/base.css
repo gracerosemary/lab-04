@@ -1,13 +1,12 @@
 body {
     position: relative;
     width: 100%;
-    display: flexbox;
+    display: grid;
     text-align: center;
 }
 
 body > *  {
     margin: auto;
-    display: flexbox;
     overflow: auto;
     width: 480px;
 }
@@ -22,12 +21,11 @@ header, div#b, div#c, div#d, section#e, section#f, section#g, section#h, footer.
     body {
         position: relative;
         width: 100%;
-        display: flexbox;
+        display: grid;
     }
     
     body > *  {
         margin: auto;
-        display: flexbox;
         overflow: auto;
         width: 960px;
     }
@@ -39,12 +37,11 @@ header, div#b, div#c, div#d, section#e, section#f, section#g, section#h, footer.
     body {
         position: relative;
         width: 100%;
-        display: flexbox;
+        display: grid;
     }
     
     body > *  {
         margin: auto;
-        display: flexbox;
         overflow: auto;
         width: 700px;
     }
