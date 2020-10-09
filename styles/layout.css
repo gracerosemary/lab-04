@@ -84,21 +84,20 @@
 
 /* table view */
 
-/* @media only screen and (min-width: 600px) and (max-width: 767px) {
-    div {
-        float: left;
-    }
-    
+@media only screen and (min-width: 600px) and (max-width: 767px) {
     .square {
-        float: left;
-    } 
-    
-    #i {
-        float: left;
-    } 
+        grid-template-columns: 175px 175px 175px 175px;
+        grid-template-rows: 250px;
+    }
 
     .fattest {
         height: 200px;
-        line-height: 200px;
     }
-} */
+
+    .fat {
+        height: 200px;
+        display: grid;
+        grid-template-columns: 350px 350px;
+        grid-template-rows: 200px;
+    }
+}
