@@ -1,3 +1,5 @@
+/* mobile */
+@media only screen and (max-width: 600px) {
 #a {
     height: 75px;
     line-height: 75px;
@@ -35,10 +37,11 @@
 #i {
     line-height: 75px;
 }
+}
 
 /* desktop view */
 
-@media only screen and (min-width: 768px) and (max-width: 960px) {
+@media only screen and (min-width: 768px) {
     
     #a {
         grid-area: a;
@@ -75,6 +78,7 @@
     }
 
     .square {
+        display: inline-grid;
         grid-template-columns: 190px 190px 190px 190px;
         grid-template-rows: 250px;
     }
@@ -82,10 +86,11 @@
 
 }
 
-/* table view */
+/* tablet view */
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
     .square {
+        display: inline-grid;
         grid-template-columns: 175px 175px 175px 175px;
         grid-template-rows: 250px;
     }

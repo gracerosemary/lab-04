@@ -1,3 +1,5 @@
+/* mobile */
+@media only screen and (max-width: 600px) {
 body {
     position: relative;
     width: 100%;
@@ -14,14 +16,17 @@ body > *  {
 header, div#b, div#c, div#d, section#e, section#f, section#g, section#h, footer.i {
     outline: solid .5px darkgrey;
 }
+}
+
 
 /* desktop */
 
-@media only screen and (min-width: 768px) and (max-width: 960px) {
+@media only screen and (min-width: 768px) {
     body {
         position: relative;
         width: 100%;
         display: grid;
+        text-align: center;
     }
     
     body > *  {
@@ -38,6 +43,7 @@ header, div#b, div#c, div#d, section#e, section#f, section#g, section#h, footer.
         position: relative;
         width: 100%;
         display: grid;
+        text-align: center;
     }
     
     body > *  {
