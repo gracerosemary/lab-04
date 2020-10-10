@@ -11,7 +11,6 @@
 }
 
 /* only select div elements inside of .fat */
-
 .fat > div {
     height: 120px;
     line-height: 120px;
