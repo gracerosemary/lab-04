@@ -1,4 +1,4 @@
-# lab-01
+# lab-04
 
 # SMACSS and Responsive Web Design
 
@@ -32,4 +32,4 @@ This is an independent project, but your are free to collaborate with your class
 ## Submission Instructions
 * Complete your Feature Tasks for the day
 * Create a Pull Request (PR) back to the master branch of your repository
-* On Canvas, submit a link to your PR
+* On Canvas, submit a link to your PR# lab-04
